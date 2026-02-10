@@ -276,30 +276,6 @@ This is a pilot/MVP focused on core workflow validation. The following features 
 - [ ] Try approving DRAFT application (should fail)
 - [ ] Try assessing non-DRAFT application (should fail)
 
-## Contributing
-
-This is a demonstration project for loan workflow validation. For production use, consider adding:
-- Unit tests (Jest, Mocha)
-- Integration tests
-- API documentation (Swagger/OpenAPI)
-- Input sanitization
-- Rate limiting
-- Logging and monitoring
-- Error tracking (Sentry)
-- CI/CD pipeline
 
 ## License
 
-This project is created for educational and demonstration purposes.
-
-## 👥 Authors
-
-[Your Name/Team]
-
-## Acknowledgments
-
-Built with modern web technologies to demonstrate clean architecture and domain-driven design principles in a financial services context.
-
----
-
-**Note**: This is a pilot system designed to validate credit decision logic and workflow design before investing in a full-scale lending program. It focuses on domain integrity, clean object-oriented modeling, and correct enforcement of business rules rather than feature completeness.
