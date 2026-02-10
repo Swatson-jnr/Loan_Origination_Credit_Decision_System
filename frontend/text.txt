@@ -1,0 +1,28 @@
+a finiacial institusion is piloting a simplified loan origiantion module to validate credit decision logic and worklflow 
+design before investing in afull scale lending program
+your task is to implemnt only the core loan application workflow, focusing on domain integrity, clean object-oriented modeling , and correct enforcement of business rules rather than the feature completeness
+
+1.loan application creation
+implement functionality to create a loan application capturing the following: applicant name, monthly income,requeested loan amount, tenor(months)
+nb: newly created loan application must start in the draft state
+
+2. credit assesment 
+implement a basic rule based credit assesment 
+rulesmonthly income must be at least 3x the monthly installment
+credit assesment results in, a pass or fail 
+loan applications that fail credit assessment must be automaticall rejected
+
+3. approval decision 
+implement functionality to approve or reject a loan applicationrules
+only the applicationst that have passed credit assesment can be approved 
+rejection is fianl and cannot be reversed
+
+the following are not required for this assesment
+loan disbiursement, interest calculation,repaymanet schedules,
+authentication or authorization, ui styling and advanced frontend features
+
+
+//step 1
+so breaking this down we first need to create two folders that is the backend folder and the frontend folder
+
+//steo two initialize the backend to get
